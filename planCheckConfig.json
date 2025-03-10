@@ -1,0 +1,30 @@
+{
+  "Rules": [
+      {
+          "Category": "DVH統計",
+          "Item": "PTV D95",
+          "ExpectedValue": "50.00 Gy",
+          "Severity": "エラー"
+      },
+        {
+          "Category": "DVH統計",
+          "Item": "Brain DMax",
+          "ExpectedValue": "10.00 Gy",
+          "Severity": "警告"
+
+         },
+         {
+          "Category": "DVH統計",
+          "Item": "SpinalCord MeanDose",
+          "ExpectedValue": "3.00 Gy",
+          "Severity": "エラー"
+
+         },
+      {
+          "Category": "Beam",
+          "Item": "Minimum MU",
+          "ExpectedValue": "10",
+           "Severity":"警告"
+      }
+  ]
+}
