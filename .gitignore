@@ -1,0 +1,69 @@
+# Visual Studio temporary files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vsconfig
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet Packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+
+# Visual Studio cache files
+*.[Cc]ache
+!?*.[Cc]ache/
+
+# Others
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Project specific files
+DTAR_*/
+.file_*
+U_rtperr_tab
+U_rtpmsg_tab
+__TemplateIcon.ico
+MyTemplate.vstemplate
+
+# DLLs (Optional, uncomment if you want to exclude all DLLs)
+# *.dll
+
+# Specific DLLs that are not needed in source control
+Inf_SSO_Utils.dll
+Microsoft.Web.WebView2.Core.dll
+Microsoft.Web.WebView2.Wpf.dll
+MonacoLicenseUtility.dll
