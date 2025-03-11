@@ -6,6 +6,17 @@
 
 このツールは Elekta Monaco 治療計画システム用のプランチェックスクリプトで、治療計画の品質保証のための自動チェック機能を提供します。Monaco Scripting API を用いて開発されており、ビーム設定、処方線量、計算設定など多岐にわたる治療計画パラメータの検証を自動化します。
 
+**注意**: このリポジトリは教育・研究目的のみを意図しており、実際の臨床使用前には適切な検証と承認が必要です。
+
+## 公開範囲について
+
+このリポジトリには、一般的な放射線治療計画検証ロジックのみが含まれており、以下の点に注意してください：
+
+- すべての患者データやセンシティブな情報は削除されています
+- 実際の臨床データは含まれていません
+- 特定の施設固有の設定値や設定基準は一般化されています
+- コードは教育・研究目的での参照用であり、実際の臨床環境での使用には適さない場合があります
+
 ## 主な機能
 
 - **基本プラン情報の検証**
@@ -79,6 +90,8 @@ private const double MIN_COLLIMATOR_SIZE = 3.0; // 最小コリメータサイ�
 
 - このツールは治療計画の検証を支援するものであり、医学物理士や放射線治療医の専門的判断に代わるものではありません
 - 治療計画の最終承認前に、すべての警告とエラーを適切に評価してください
+- このコードは所属機関の正式な製品やサービスを代表するものではありません
+- 実際の臨床使用は承認されていません
 
 ## 開発者向け情報
 
@@ -91,6 +104,40 @@ private const double MIN_COLLIMATOR_SIZE = 3.0; // 最小コリメータサイ�
 - Elekta.MonacoScripting.DataType
 - Elekta.MonacoScripting.Log
 
+## コントリビューション
+
+本リポジトリは教育・研究目的の参照用として公開しています。イシューの報告や改善提案は歓迎しますが、プルリクエストについては慎重に検討させていただきます。
+
+## 免責事項
+
+このコードは特定の臨床環境で作成されたものの一部であり、他の環境での動作は保証されません。使用に伴うリスクはすべてユーザー自身の責任となります。実際の放射線治療計画の検証には、適切な資格を持つ医学物理士による確認が必要です。
+
 ## ライセンス
 
-[ライセンス情報を記載]
+MIT License
+
+Copyright (c) 2025 [あなたの名前/組織名]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+このライセンスは、EuroMediTechのdvhAnalyzerのライセンス形式を参考にしています。
+
+## 連絡先
+
+質問や問い合わせは、[連絡先情報] までお願いします。
