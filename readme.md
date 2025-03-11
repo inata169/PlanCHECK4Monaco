@@ -88,7 +88,7 @@ private const double MIN_COLLIMATOR_SIZE = 3.0; // 最小コリメータサイ�
 
 ## 注意事項
 
-- このツールは治療計画の検証を支援するものであり、医学物理士や放射線治療医の専門的判断に代わるものではありません
+- このツールは治療計画の検証を支援するものであり、医学物理士や放射線治療専門放射線技師、放射線治療医の専門的判断に代わるものではありません
 - 治療計画の最終承認前に、すべての警告とエラーを適切に評価してください
 - このコードは所属機関の正式な製品やサービスを代表するものではありません
 - 実際の臨床使用は承認されていません
@@ -116,7 +116,7 @@ private const double MIN_COLLIMATOR_SIZE = 3.0; // 最小コリメータサイ�
 
 MIT License
 
-Copyright (c) 2025 [あなたの名前/組織名]
+Copyright (c) 2025 169@inata169.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -136,8 +136,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-このライセンスは、EuroMediTechのdvhAnalyzerのライセンス形式を参考にしています。
 
 ## 連絡先
 
-質問や問い合わせは、[連絡先情報] までお願いします。
+質問や問い合わせは、169@inata169.com までお願いします。
